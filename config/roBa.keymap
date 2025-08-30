@@ -82,7 +82,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                                     &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G      &kp ESCAPE          &kp MINUS                  &kp H        &kp J  &kp K      &kp L    &lt 3 SQT
-&kp Z             &kp X         &kp C         &kp V             &kp B      &kp COLON           &mt RIGHT_SHIFT SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
+&kp Z             &kp X         &kp C         &kp V             &kp B      &kp COLON           &mt RIGHT_SHIFT SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 7 SLASH
 &lt 6 INT_HENKAN  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp LEFT_SHIFT      &lt 2 BACKSPACE            &lt 1 ENTER                             &kp DEL
             >;
 
@@ -142,6 +142,15 @@
 &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans           &trans       &trans        &trans        &trans        &trans        &trans
 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &bootloader      &bootloader  &kp NUMBER_6  &trans        &trans        &trans        &bt BT_CLR
 &trans        &trans        &trans        &trans        &trans  &trans           &trans       &trans                                                  &bt BT_CLR_ALL
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans    &trans       &trans         &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &mkp MB1     &mkp MB3       &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5  &kp PAGE_UP  &kp PAGE_DOWN  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                          &trans
             >;
         };
     };
